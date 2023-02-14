@@ -1,0 +1,7 @@
+version: '3'
+services:
+  Tetris-game:
+    container_name: juego-tetris
+    image: davidhv/game
+    ports:
+      - "16000:80"
